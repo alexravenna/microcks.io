@@ -3,7 +3,7 @@ draft: false
 title: "Testcontainers Modules"
 date: 2025-07-17
 publishdate: 2025-07-17
-lastmod: 2026-01-30
+lastmod: 2026-08-06
 weight: 7
 ---
 
@@ -21,29 +21,30 @@ This page lists the implementation status of various features by the different m
 
 This section lists the features related to Microcks initialization during the preparation of setup phase of tests.
 
-| Feature                 | Java  | JS   | Go   | .NET |
-| ----------------------- | ----- | ---- | ---- | ---- |
-| Secret creation         | ✅    | ✅   | ✅   | ✅   |
-| Snapshot restoration    | ✅    | ✅   | ✅   | ✅   |
-| Local files (primary)   | ✅    | ✅   | ✅   | ✅   |
-| Local files (secondary) | ✅    | ✅   | ✅   | ✅   |
-| Remote urls (primary)   | ✅    | ✅   | ✅   | ✅   |
-| Remote urls (secondary) | ✅    | ✅   | ✅   | ✅   |
-| Remote urls with Secret | ✅    | ✅   | ❌   | ✅   |
-| Enable DEBUG log level  | ✅    | ✅   | ✅   | ✅   |
+| Feature                  | Java  | JS   | Go   | .NET |
+| ------------------------ | ----- | ---- | ---- | ---- |
+| Secret creation          | ✅    | ✅   | ✅   | ✅   |
+| Snapshot restoration     | ✅    | ✅   | ✅   | ✅   |
+| Local files (primary)    | ✅    | ✅   | ✅   | ✅   |
+| Local files (secondary)  | ✅    | ✅   | ✅   | ✅   |
+| Remote urls (primary)    | ✅    | ✅   | ✅   | ✅   |
+| Remote urls (secondary)  | ✅    | ✅   | ✅   | ✅   |
+| Remote urls with Secret  | ✅    | ✅   | ❌   | ✅   |
+
 
 ## Mocking features
 
 This sections lists the features related to the mocking part of Microcks (getting endpoints, checking invocations).
 
-| Feature                 | Java  | JS   | Go   | .NET |
-| ----------------------- | ----- | ---- | ---- | ---- |
-| REST endpoints          | ✅    | ✅   | ✅   | ✅   |
-| Soap endpoints          | ✅    | ✅   | ✅   | ✅   |
-| GraphQL endpoints       | ✅    | ✅   | ✅   | ✅   |
-| gRPC endpoints          | ✅    | ✅   | ✅   | ✅   |
-| Invocation verification | ✅    | ✅   | ✅   | ✅   |
-| Get invocation stats    | ✅    | ✅   | ✅   | ✅   |
+| Feature                       | Java  | JS   | Go   | .NET |
+| ----------------------------- | ----- | ---- | ---- | ---- |
+| REST endpoints                | ✅    | ✅   | ✅   | ✅   |
+| Soap endpoints                | ✅    | ✅   | ✅   | ✅   |
+| GraphQL endpoints             | ✅    | ✅   | ✅   | ✅   |
+| gRPC endpoints                | ✅    | ✅   | ✅   | ✅   |
+| Invocation verification       | ✅    | ✅   | ✅   | ✅   |
+| Get invocation stats          | ✅    | ✅   | ✅   | ✅   |
+| Webhook callback registration | ✅    | ❌   | ❌   | ❌   |
 
 ## Testing features
 
