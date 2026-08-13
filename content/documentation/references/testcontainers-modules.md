@@ -3,7 +3,7 @@ draft: false
 title: "Testcontainers Modules"
 date: 2025-07-17
 publishdate: 2025-07-17
-lastmod: 2026-08-06
+lastmod: 2026-08-13
 weight: 7
 ---
 
@@ -29,7 +29,7 @@ This section lists the features related to Microcks initialization during the pr
 | Local files (secondary)  | ✅    | ✅   | ✅   | ✅   |
 | Remote urls (primary)    | ✅    | ✅   | ✅   | ✅   |
 | Remote urls (secondary)  | ✅    | ✅   | ✅   | ✅   |
-| Remote urls with Secret  | ✅    | ✅   | ❌   | ✅   |
+| Remote urls with Secret  | ✅    | ✅   | ✅   | ✅   |
 
 
 ## Mocking features
@@ -44,7 +44,7 @@ This sections lists the features related to the mocking part of Microcks (gettin
 | gRPC endpoints                | ✅    | ✅   | ✅   | ✅   |
 | Invocation verification       | ✅    | ✅   | ✅   | ✅   |
 | Get invocation stats          | ✅    | ✅   | ✅   | ✅   |
-| Webhook callback registration | ✅    | ❌   | ❌   | ❌   |
+| Webhook callback registration | ✅    | ❌   | ✅   | ❌   |
 
 ## Testing features
 
@@ -69,7 +69,7 @@ This sections lists the async protocols available on each language binding.
 | Kafka               | ✅    | ✅   | ✅   | ✅   |
 | WebSocket           | ✅    | ✅   | ❌   | ✅   |
 | MQTT                | ✅    | ✅   | ✅   | ❌   |
-| RabbitMQ (AMQP 0.9) | ✅    | ✅   | ❌   | ✅   |
+| RabbitMQ (AMQP 0.9) | ✅    | ✅   | ✅   | ✅   |
 | NATS                | ❌    | ❌   | ❌   | ❌   |
 | AWS SQS             | ✅    | ✅   | ✅   | ❌   |
 | AWS SNS             | ✅    | ✅   | ✅   | ❌   |
